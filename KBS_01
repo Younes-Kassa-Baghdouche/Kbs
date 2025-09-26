@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exclusive Offer USA!</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #1e90ff, #00bfff);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #fff;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+      animation: pulse 1.5s infinite;
+    }
+
+    p {
+      font-size: 1.5rem;
+      margin-bottom: 40px;
+      max-width: 500px;
+      line-height: 1.5;
+    }
+
+    a.button {
+      background: #ff4500;
+      color: #fff;
+      padding: 20px 50px;
+      font-size: 1.8rem;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      transition: all 0.3s ease;
+    }
+
+    a.button:hover {
+      background: #ff6347;
+      transform: scale(1.05);
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+
+    .highlight {
+      background: rgba(0,0,0,0.2);
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 5px 25px rgba(0,0,0,0.2);
+      animation: float 2s infinite alternate;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-10px); }
+    }
+  </style
